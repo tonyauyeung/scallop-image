@@ -1,0 +1,21 @@
+# Python 3.11. Versions verified together by the CPU smoke tests (py/tests).
+# For NVIDIA GPUs install JAX with CUDA instead of the CPU wheel:
+#   pip install "jax[cuda12]==0.6.2"
+jax==0.6.2
+flax==0.10.6
+optax==0.2.5
+ml-collections==0.1.1
+numpy==2.1.3
+scipy==1.17.1
+# data loading only (CPU); tensorflow-metadata/protobuf pinned to avoid gencode/runtime clashes
+tensorflow==2.19.0
+tensorflow-datasets==4.9.8
+tensorflow-metadata==1.17.1
+protobuf==5.29.6
+wandb==0.30.0
+matplotlib==3.11.2
+seaborn==0.13.2
+tqdm==4.70.1
+requests==2.34.2
+
+# Optional tests: pip install pytest

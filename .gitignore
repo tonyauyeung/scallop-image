@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+wandb/
+*.err
+*.out
+log/
+logs/
+outputs/
+checkpoints/
+datasets/
+data/
+# keep the Inception weights used for FID
+!py/data/
+!py/data/inception_v3_weights_fid.pickle
